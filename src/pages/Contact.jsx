@@ -5,6 +5,9 @@ import Loader from '../components/Loader';
 import {Canvas} from '@react-three/fiber'
 import { a } from '@react-spring/three';
 
+import useAlert from '../hooks/useAlert';
+import Alert from '../components/Alert';
+
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -57,52 +60,52 @@ const Contact = () => {
   }
 
   return (
-    <section className='relative felx lg:flex-row flex-col max-container'>
-
+    <section className="relative flex flex-col lg:flex-row max-container items-center justify-between ">
       {alert.show && <Alert {...alert} />}
-
-      <div className='flex-1 min-w-[50%] flex flex-col'>
-        <h1 className='head-text'>Get in Touch</h1>
+      {/* Form Section */}
+      <div className="flex-1 w-full max-w-4xl flex flex-col justify-center z-10">
+        <div className="flex items-center mb-6">
+          <h1 className="head-text whitespace-nowrap mr-4">Get in Touch</h1>
+        </div>
         <form
-        className='w-full flex flex-col gap-7 mt-14'
-          onSubmit={handleSubmit}>
-          <label className='text-black-500 font-semibold'>
+          className="w-full flex flex-col gap-7"
+          onSubmit={handleSubmit}
+        >
+          <label className="text-black-500 font-semibold w-full">
             Name
-          <input 
-            type="text"
-            name="name"
-            placeholder="John"
-            className='input'
-            required
-            value={form.name}
-            onChange={handleChange}
-            onFocus={handleFocus}
-            onBlur={handleBlur}
-
-          ></input>
+            <input
+              type="text"
+              name="name"
+              placeholder="John"
+              className="input w-full min-w-0"
+              required
+              value={form.name}
+              onChange={handleChange}
+              onFocus={handleFocus}
+              onBlur={handleBlur}
+            />
           </label>
-          <label className='text-black-500 font-semibold'>
+          <label className="text-black-500 font-semibold w-full">
             Email
-          <input 
-            type="email"
-            name="email"
-            placeholder="John@gmail.com"
-            className='input'
-            required
-            value={form.email}
-            onChange={handleChange}
-            onFocus={handleFocus}
-            onBlur={handleBlur}
-
-          ></input>
+            <input
+              type="email"
+              name="email"
+              placeholder="john@gmail.com"
+              className="input w-full min-w-0"
+              required
+              value={form.email}
+              onChange={handleChange}
+              onFocus={handleFocus}
+              onBlur={handleBlur}
+            />
           </label>
-          <label className='text-black-500 font-semibold'>
+          <label className="text-black-500 font-semibold w-full">
             Your Message
             <textarea
-              name='message'
-              rows='4'
-              className='textarea'
-              placeholder='Write your thoughts here...'
+              name="message"
+              rows="4"
+              className="textarea w-full min-w-0"
+              placeholder="Let me know how I can help you!"
               value={form.message}
               onChange={handleChange}
               onFocus={handleFocus}
@@ -110,36 +113,37 @@ const Contact = () => {
             />
           </label>
           <button
-          type="submit"
-          className='btn'
-          disabled={isLoading}
-          onFocus={handleFocus}
-          onBlur={handleBlur}
+            type="submit"
+            className="btn w-full"
+            disabled={isLoading}
+            onFocus={handleFocus}
+            onBlur={handleBlur}
           >
-            {isLoading ? 'Sending...' : 'Send'}
+            {isLoading ? "Sending..." : "Send Message"}
           </button>
         </form>
-
       </div>
-      <div className='lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]'>
-      <Canvas camera={{
-        position: [0, 0, 5],
-        fov: 75,
-        near: 0.1,
-        far: 1000
-      }}>
-        <directionalLight intensity={2.5} position={[0, 0, 1]} />
-        <ambientLight intensity={0.5} />
-        <Suspense fallback={<Loader />}>
-
-          <Fox
-          currentAnimation={currentAnimation}
-          position={[0.5, 0.35, 0]}
-          rotation={[12, 0, 0]}
-          scale={[0.5, 0.5, 0.5]}
-          />
-        </Suspense>
-      </Canvas>
+      {/* Fox 3D Model Section */}
+      <div className="flex-1 w-full max-w-xl flex items-center justify-center lg:justify-end mt-10 lg:mt-0 lg:h-auto md:h-[550px] h-[350px]">
+        <Canvas
+          camera={{
+            position: [2.5, 0, 5],
+            fov: 75,
+            near: 0.1,
+            far: 1000,
+          }}
+        >
+          <directionalLight intensity={2.5} position={[0, 0, 1]} />
+          <ambientLight intensity={0.5} />
+          <Suspense fallback={<Loader />}>
+            <Fox
+              currentAnimation={currentAnimation}
+               position={[0.5, 0.35, 0]}
+              rotation={[12.629, -0.6, 0]}
+              scale={[1, 1, 1]}
+            />
+          </Suspense>
+        </Canvas>
       </div>
     </section>
   )
