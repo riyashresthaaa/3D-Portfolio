@@ -38,11 +38,6 @@ export const skills = [
         type: "Backend",
     },
     {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
         imageUrl: github,
         name: "GitHub",
         type: "Version Control",
@@ -58,29 +53,9 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
         imageUrl: nextjs,
         name: "Next.js",
         type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
     },
     {
         imageUrl: react,
@@ -89,77 +64,63 @@ export const skills = [
     },
     {
         imageUrl: redux,
-        name: "Redux",
+        name: "Python",
         type: "State Management",
     },
     {
         imageUrl: sass,
-        name: "Sass",
+        name: "Figma",
         type: "Frontend",
     },
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
-    },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
     }
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "Creative Team Supervisor",
+        company_name: "Colour Nepal",
         icon: starbucks,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "February 2025 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Worked as supervisor for graphic design and ui design interns by assigning tasks reviewing designs and providing guidance.",
+            " Also managed social media accounts and contributed to content creation focusing on coordination, creativity, leadership & communication skills.",
+            ,
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
+        title: "UI/UX Designer",
+        company_name: "Voyageons Nepal",
         icon: tesla,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Dec 2025 - June 2025",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Responsible for designing engaging admin side web UI, mobile app designs and posts for social media and creating pitch decks for Green Earth Token. (Certificate via Voyageons Nepal)",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
+        title: "Graphic Designer",
+        company_name: "Gabis AI",
         icon: shopify,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "Feb 2025 - June 2025",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Responsible for writing content for the AI group and designing engaging posts and pitchdecks, ensuring clear communication and alignment with the group's goals.",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
+        title: "Video Editor",
+        company_name: "Optimate Media",
         icon: meta,
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "April 2024 - July 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Responsible for producing and managing both long and short-form YouTube videos to gather insights .",
+            "Actively developing soft skills and cultivating a continuous learning habit while independently managing content creation and personal growth.",
         ],
     },
 ];
@@ -173,12 +134,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/riyashresthaaa',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/riyashresthaa/',
     }
 ];
 
@@ -186,43 +147,43 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Arirang Nepal',
+        description: 'An online dynamic platform developed using HTML, CSS, PHP and MySQL, which serves as Nepals ecommerce hub for K-pop fans, offering a wide selection of official merchandise and personalized shopping experiences to enhance fan engagement and community connection.',
+        link: 'https://github.com/riyashresthaaa/Arirang-E-Commerce-Site',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+        name: 'Aorta-AI',
+        description: 'A web-based machine learning model that predicts weather the user will have heart disease or not. Mainly made to increase awareness and to deliver an affordable service to everyone around the world. Not just predict but also recommend according to the symptoms.',
         link: 'https://github.com/adrianhajdin/threads',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
+        name: 'LENS-Language-based Enhanced Nepali Solution',
+        description: 'LENS is an AI-powered platform tailored to streamline document management, making it simpler and more efficient for Nepali users. Harnessing the power of OCR technology, it enables users to digitize handwritten or printed Nepali documents effortlessly, paving the way for easy editing, saving, and printing',
         link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+        name: 'Greenie-Pal',
+        description: 'An eco-friendly buddy that helps you discover sustainable tasks, ideas, and knowledge for a greener life. It is an app built using Streamlit and powered by Googles Gemini API. It promotes environmental awareness by delivering sustainability tips, answering eco-related questions, and testing your knowledge with a fun myth or truth quiz!',
         link: 'https://github.com/adrianhajdin/social_media_app',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
+        name: 'Green Earth Token',
+        description: 'User Interface Design for blockchain based eco-reward app name Green Earth Token and its admin panel website UI during my role at Voyageons Nepal discussing closely with app developers and content supervisors.',
         link: 'https://github.com/adrianhajdin/projects_realestate',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
+        name: 'Dip\'n Dine',
+        description: 'A fully responsive static restaurant website using Bootstrap, featuring a clean and modern layout.',
         link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
 ];

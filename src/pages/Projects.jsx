@@ -11,8 +11,7 @@ const Projects = () => {
       </h1>
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          I've embarked on numerous projects throughtout the years,
-          but these are my best projects that I have worked on.
+          Over the years, I’ve embarked on many projects; these are the highlights of my work.
         </p>
       </div>
       

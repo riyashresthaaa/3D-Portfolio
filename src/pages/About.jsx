@@ -17,7 +17,7 @@ const About = () => {
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
           CSAI Student at Sunway College afiliated to BCU. 
-          Aspiring Frontend Developer.
+          Developer dedicated to crafting Tech Solutions.
         </p>
       </div>
       <div className='py-10 flex flex-col'>
@@ -41,8 +41,7 @@ const About = () => {
         <h3 className='subhead-text'>Work Experience</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Worked as UI/UX Designer, Creative Team Supervisor  and Graphic Designer. 
-          Below given are the works i've done in companies and my personal academic projects.
+         Roles I’ve taken on professionally include:
         </p>
       </div>
       <div className='mt-12 flex'>
