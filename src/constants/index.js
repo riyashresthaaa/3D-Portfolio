@@ -5,16 +5,12 @@ import {
     css,
     estate,
     express,
-    git,
+
     github,
     html,
     javascript,
     linkedin,
-    mongodb,
-    motion,
-    mui,
     nextjs,
-    nodejs,
     pricewise,
     react,
     redux,
@@ -23,25 +19,9 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
 } from "../assets/icons";
 
 export const skills = [
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
     {
         imageUrl: html,
         name: "HTML",
@@ -51,6 +31,26 @@ export const skills = [
         imageUrl: javascript,
         name: "JavaScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: css,
+        name: "CSS",
+        type: "Frontend",
+    },
+        {
+        imageUrl: tailwindcss,
+        name: "Tailwind CSS",
+        type: "Frontend",
+    },
+            {
+        imageUrl: sass,
+        name: "Figma",
+        type: "Frontend",
+    },
+    {
+        imageUrl: github,
+        name: "GitHub",
+        type: "Version Control",
     },
     {
         imageUrl: nextjs,
@@ -67,16 +67,11 @@ export const skills = [
         name: "Python",
         type: "State Management",
     },
-    {
-        imageUrl: sass,
-        name: "Figma",
-        type: "Frontend",
+        {
+        imageUrl: express,
+        name: "Machine Learning",
+        type: "Backend",
     },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    }
 ];
 
 export const experiences = [
@@ -156,34 +151,48 @@ export const projects = [
         theme: 'btn-back-green',
         name: 'Aorta-AI',
         description: 'A web-based machine learning model that predicts weather the user will have heart disease or not. Mainly made to increase awareness and to deliver an affordable service to everyone around the world. Not just predict but also recommend according to the symptoms.',
-        link: 'https://github.com/adrianhajdin/threads',
+        link: 'https://github.com/riyashresthaaa/AortaAI',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
         name: 'LENS-Language-based Enhanced Nepali Solution',
         description: 'LENS is an AI-powered platform tailored to streamline document management, making it simpler and more efficient for Nepali users. Harnessing the power of OCR technology, it enables users to digitize handwritten or printed Nepali documents effortlessly, paving the way for easy editing, saving, and printing',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        link: 'https://github.com/riyashresthaaa/LENS_OCR-digitalizer_ObrbitHack',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
         name: 'Greenie-Pal',
         description: 'An eco-friendly buddy that helps you discover sustainable tasks, ideas, and knowledge for a greener life. It is an app built using Streamlit and powered by Googles Gemini API. It promotes environmental awareness by delivering sustainability tips, answering eco-related questions, and testing your knowledge with a fun myth or truth quiz!',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        link: 'https://github.com/riyashresthaaa/Greenie-Pal',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
+        name: 'WEBIO',
+        description: 'A social media web application built with Django that allows users to connect, share, and Chat.',
+        link: 'https://github.com/riyashresthaaa/WEBIO',
+    },
+    {
+        iconUrl: estate,
+        theme: 'btn-back-pink',
         name: 'Green Earth Token',
         description: 'User Interface Design for blockchain based eco-reward app name Green Earth Token and its admin panel website UI during my role at Voyageons Nepal discussing closely with app developers and content supervisors.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        link: 'https://github.com/riyashresthaaa/Green-Earth-Token',
     },
     {
         iconUrl: summiz,
-        theme: 'btn-back-yellow',
+        theme: 'btn-back-red',
         name: 'Dip\'n Dine',
         description: 'A fully responsive static restaurant website using Bootstrap, featuring a clean and modern layout.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        link: 'https://github.com/riyashresthaaa/Dip-n-Dine',
+    },
+    {
+        iconUrl: summiz,
+        theme: 'btn-back-blue',
+        name: 'Sanatan Dharma APP UI',
+        description: 'A Hindu Dharma Mantra App UI made using Figma',
+        link: 'https://github.com/riyashresthaaa/Dip-n-Dine',
     }
 ];
