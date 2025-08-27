@@ -60,7 +60,7 @@ const Contact = () => {
   }
 
   return (
-    <section className="relative flex flex-col lg:flex-row max-container items-center justify-between ">
+    <section className="relative flex flex-col lg:flex-row max-container items-center justify-between h-[100vh] ">
       {alert.show && <Alert {...alert} />}
       {/* Form Section */}
       <div className="flex-1 w-full max-w-4xl flex flex-col justify-center z-10">
