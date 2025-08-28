@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { colour, voya, gabis } from "../assets/images";
 import {
     car,
     contact,
@@ -78,7 +78,7 @@ export const experiences = [
     {
         title: "Creative Team Supervisor",
         company_name: "Colour Nepal",
-        icon: starbucks,
+        icon: colour,
         iconBg: "#accbe1",
         date: "February 2025 - Present",
         points: [
@@ -90,7 +90,7 @@ export const experiences = [
     {
         title: "UI/UX Designer",
         company_name: "Voyageons Nepal",
-        icon: tesla,
+        icon: voya,
         iconBg: "#fbc3bc",
         date: "Dec 2025 - June 2025",
         points: [
@@ -100,7 +100,7 @@ export const experiences = [
     {
         title: "Graphic Designer",
         company_name: "Gabis AI",
-        icon: shopify,
+        icon: gabis,
         iconBg: "#b7e4c7",
         date: "Feb 2025 - June 2025",
         points: [
