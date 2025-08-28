@@ -4,8 +4,7 @@ import {
     contact,
     css,
     estate,
-    express,
-
+    python,
     github,
     html,
     javascript,
@@ -13,12 +12,13 @@ import {
     nextjs,
     pricewise,
     react,
-    redux,
-    sass,
+    ml,
     snapgram,
     summiz,
     tailwindcss,
     threads,
+    figma,
+    video,
 } from "../assets/icons";
 
 export const skills = [
@@ -42,8 +42,8 @@ export const skills = [
         name: "Tailwind CSS",
         type: "Frontend",
     },
-            {
-        imageUrl: sass,
+        {
+        imageUrl: figma,
         name: "Figma",
         type: "Frontend",
     },
@@ -63,12 +63,12 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: redux,
+        imageUrl: python,
         name: "Python",
-        type: "State Management",
+        type: "Backend",
     },
         {
-        imageUrl: express,
+        imageUrl: ml,
         name: "Machine Learning",
         type: "Backend",
     },
@@ -110,7 +110,7 @@ export const experiences = [
     {
         title: "Video Editor",
         company_name: "Optimate Media",
-        icon: meta,
+        icon: video,
         iconBg: "#a2d2ff",
         date: "April 2024 - July 2024",
         points: [

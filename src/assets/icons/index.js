@@ -26,6 +26,11 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import figma from './figma.svg'
+import ml from './ml.svg'
+import python from './python.svg'
+import video from './video.svg'
+
 
 export {
     css,
@@ -55,5 +60,9 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    figma,
+    python,
+    ml,
+    video
 }
