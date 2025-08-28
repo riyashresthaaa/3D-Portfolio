@@ -175,7 +175,7 @@ export const projects = [
         link: 'https://github.com/riyashresthaaa/WEBIO',
     },
     {
-        iconUrl: estate,
+        iconUrl: pricewise,
         theme: 'btn-back-pink',
         name: 'Green Earth Token',
         description: 'User Interface Design for blockchain based eco-reward app name Green Earth Token and its admin panel website UI during my role at Voyageons Nepal discussing closely with app developers and content supervisors.',
@@ -189,7 +189,7 @@ export const projects = [
         link: 'https://github.com/riyashresthaaa/Dip-n-Dine',
     },
     {
-        iconUrl: summiz,
+        iconUrl: threads,
         theme: 'btn-back-blue',
         name: 'Sanatan Dharma APP UI',
         description: 'A Hindu Dharma Mantra App UI made using Figma',
