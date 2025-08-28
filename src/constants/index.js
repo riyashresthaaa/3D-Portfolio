@@ -182,7 +182,7 @@ export const projects = [
         link: 'https://github.com/riyashresthaaa/Green-Earth-Token',
     },
     {
-        iconUrl: summiz,
+        iconUrl: rs,
         theme: 'btn-back-red',
         name: 'Dip\'n Dine',
         description: 'A fully responsive static restaurant website using Bootstrap, featuring a clean and modern layout.',
