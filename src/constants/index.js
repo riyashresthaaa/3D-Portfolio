@@ -193,6 +193,6 @@ export const projects = [
         theme: 'btn-back-blue',
         name: 'Sanatan Dharma APP UI',
         description: 'A Hindu Dharma Mantra App UI made using Figma',
-        link: 'https://github.com/riyashresthaaa/Dip-n-Dine',
+        link: 'https://github.com/riyashresthaaa/Sanatan-Dharma',
     }
 ];
