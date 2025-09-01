@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-# React + Vite
-
-# Portfolio
-
+3D Portfolio made using React
